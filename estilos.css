@@ -164,9 +164,10 @@ text-transform: capitalize;
         background-size: cover;
     }
     footer{
-        background-color: black;
+        background-color: rgb(31, 52, 63);
         text-align: center;
         color: gray;
+        color: rgb(31, 30, 30);
         display: inline block;
         text-transform: capitalize;
         padding: 20px;
