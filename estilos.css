@@ -1,0 +1,325 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{ /*titulo y barra de nav*/
+    background-color: rgba(13, 140, 214, 0.63);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav1{ /*barra de navegacion*/
+    border: 5px ridge rgba(255, 255, 255, 0);
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .nav2{ /*barra de navegacion*/
+        display: inline-block;
+        width: 25%;
+        position: relative;
+        font-size: 25px;
+        font-family: fantasy;
+        background-color: rgba(128, 128, 128, 0);
+        display: flex;
+        flex-wrap: wrap;
+        }
+    
+    li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    }
+    
+    li a:hover { /*barra de navegacion*/
+            color: rgba(12, 7, 2, 0.205);
+        }
+.menu {
+    cursor: pointer;
+}
+.menu:hover{
+    color: rgba(128, 128, 128, 0.329);
+}
+.main1{ /*la bienvenida a la pagina*/
+    height: 600px;
+    width: 100%;
+    background-image: url(img/football-g982ccdee2_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call{ /*noticia central*/
+    background-color: rgba(128, 128, 128, 0.527);
+    width: 50%;
+    padding: 20px;
+    border: 2px solid rgba(13, 140, 214, 0.63);
+}
+
+.call p{
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.botoncall{
+background-color: rgba(13, 140, 214, 0.63);
+text-decoration: none;
+padding: 10px 20px;
+color: white;
+border-radius: 5px;
+text-transform: capitalize;
+}
+.botoncall:hover{
+    background-color: rgb(128, 128, 128);
+}
+.noticias{ /*section productos nuevos*/
+    height: 600px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+}
+.nleft{ /*section productos nuevos*/
+    height: 600px;
+    width: 50%;
+    background-image: url(img/athlete-g6f9b4ff32_1920.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.nright{ /*section productos nuevos*/
+    width: 50%;
+    height: 600px;
+    color: white;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    body{
+        background-color: rgb(128, 128, 128);
+        width: auto;
+        padding: auto;
+        }
+    .listado{ /*seccion productos*/
+        background-color: rgb(128, 128, 128);
+        min-height: 600px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 200px);
+        padding: 10px;
+        grid-gap: 10px;
+    }
+    .item{ /*los productos*/
+        border-radius: 5px;
+        border: 3px solid rgba(13, 140, 214, 0.63);
+            filter: grayscale(100%);
+     transition: all 0.7s;
+    }
+    .item:hover{
+        transform: scale(1.04);
+        filter: grayscale(0%);
+        transition: all 0.7s;
+    }
+    .item1{
+        background-image: url(img/tennis-gd0a34f99f_1920.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .item2{
+        background-image: url(img/shoes-g4e73f18df_1920.jpg);
+        background-position: center;
+        background-size: cover;
+    }.item3{
+        background-image: url(img/shoes-g31bfde906_1920.jpg);
+        background-position: center;
+        background-size: cover;
+    }.item4{
+        background-image: url(img/shoes-g201813e1f_1920.jpg);
+        background-position: center;
+        background-size: cover;
+    }.item5{
+        background-image: url(img/jordan-g6a104a101_1920.jpg);
+        background-position: center;
+        background-size: cover;
+    }.item6{
+        background-image: url(img/human-g0a47e73e2_1920.jpg);
+        background-position: center;
+        background-size: cover;
+    }.item7{
+        background-image: url(img/footwear-g2bfdff28c_1920.jpg);
+        background-position: center;
+        background-size: cover;
+    }.item8{
+        background-image: url(img/feet-g16afb8881_1920.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    footer{
+        background-color: black;
+        text-align: center;
+        color: gray;
+        display: inline block;
+        text-transform: capitalize;
+        padding: 20px;
+        width: 100%;
+
+    }
+    p{
+        color: rgb(0, 0, 0);
+        background-color: rgba(128, 128, 128, 0);
+        font-weight: 50;
+        text-align: justify;
+        line-height: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h2{
+        color: rgb(0, 0, 0);
+        background-color: rgba(53, 51, 51, 0.192);
+        font-size: 45px;
+        font-weight: 100;
+        font-style: normal;
+        font-variant: small-caps;
+        text-align: center ;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    h3{
+        color: rgba(13, 140, 214, 0.63);
+
+        background-color: gray;
+        font-weight: 100;
+        font-style: normal;
+        font-variant: small-caps;
+        text-align: center ;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: 0 0 5px black;
+    }
+    h4{
+        font-size: 20px;
+    }
+    label{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(5, 0, 0);
+        text-align: center;
+    }
+    .redes i{
+        font-size: 40px;
+        color: white;
+        display: flex;
+    }
+    .carrito{ /*section productos nuevos*/
+        height: 600px;
+        width: 100%;
+        background-color: gray;
+        display: flex;
+    }
+    .nleft1{ /*section productos nuevos*/
+        height: 600px;
+        width: 50%;
+        background-image: url(img/design-g7c172fe26_1920.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .nright1{ /*section productos nuevos*/
+        width: 50%;
+        height: 600px;
+        color: white;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+@media only screen and (min-width:360px) {
+    .listado{
+        grid-template-columns: 1fr 1fr;
+    }
+    .nright{
+        flex: auto;
+    }
+    .nav1,.nav2{
+        width: auto;
+        padding: auto;
+    }
+    body{
+        width: auto;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    .listado{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .item1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .item2{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .item3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    }
+    .item4{
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+    .item5{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .item6{
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .item7{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .item8{
+        grid-column: 2/4;
+        grid-row: 4/5;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .listado{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        grid-template-areas:
+         "img1 img2 img3 img3"
+         "img1 img4 img5 img6"
+         "img7 img4 img8 img8";
+    }
+    .item1{
+        grid-area: img1;
+    }
+    .item2{
+        grid-area: img2;
+    }
+    .item3{
+        grid-area: img3;
+    }
+    .item4{
+        grid-area: img4;
+    }
+    .item5{
+        grid-area: img5;
+    }
+    .item6{
+        grid-area: img6;
+    }
+    .item7{
+        grid-area: img7;
+    }
+    .item8{
+        grid-area: img8;
+    }
+}
