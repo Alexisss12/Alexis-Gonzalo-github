@@ -163,7 +163,16 @@ text-transform: capitalize;
         background-position: center;
         background-size: cover;
     }
-
+    footer{
+        background-color: black;
+        text-align: center;
+        color: gray;
+        display: inline block;
+        text-transform: capitalize;
+        padding: 20px;
+        width: 100%;
+    
+    }
     p{
         color: rgb(0, 0, 0);
         background-color: rgba(128, 128, 128, 0);
