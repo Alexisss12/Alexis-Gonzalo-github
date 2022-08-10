@@ -28,35 +28,27 @@
 
 <body>
     <main class="main1">
-    <h2>informacion personal</h2>
-    <form action="enviar.php" method="post" enctype="text/plain">  
-    <label for="nombre">nombre:</label>
-    <input type="text" name="nombre" placeholder="escribe tu nombre"
-    required><br>
-    <label for="apellido">apellido:</label>
-    <input type="text" name="apellido" required><br>
-    <label for="contraseña">contraseña:</label>
-    <input type="password" name="contraseña" required><br>
-    <label for="mail">correo:</label>
-    <input type="email" name="mail" id=""><br>
-    <label for="estadocivil">estado civil:</label>
-    <select name="estadocivil" >
-        <option value="">soltero/a</option>
-        <option value="">casado/a</option>
-        <option value="">viudo/a</option>
-        <option value="">divorciado/a</option>
-    </select><br>
-    <input type="radio" name="sexo">
-<label for="sexo">mujer</label>
-<input type="radio" name="sexo">
-<label for="sexo">hombre</label>
-<input type="radio" name="sexo">
-<label for="sexo">otro</label><br>
-<label for="consulta">consulta:</label><br>
-<textarea name="consultas" id="" cols="30" rows="5"
-placeholder="escribe tu consulta "></textarea><br>
-<input type="submit" value="enviando">
-<input type="reset" name="" id=""><br>
+        <div class="container">
+            <h2>formulario</h2>
+            <form action="">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="ingrese mail" name="email">
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">contraseña</label>
+                    <input type="password" class="form-control" id="password" placeholder="Ingrese Contraseña" name="email">
+                </div>
+                <div class="form-group">
+                    <input type="checbox" id="checkbox1" name="checkbox1">
+                    <label for="checkbox1">Recordar contraseña</label>
+                </div>
+                <button id="boton" type="submit" class="bg">
+                    ingresar
+                </button>
+            </form>
+        </div>
     </main>
     <p>se pueden agregar distintos tipos de consultas frecuentes para guiar a la persona con su duda</p>
 </body>
